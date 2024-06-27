@@ -9,7 +9,7 @@ const App = () => {
 
       <div className="flex flex-col z-10 items-center justify-center w-full py-12 md:py-24 lg:py-8 text-slate-300">
         <div className="px-4 md:px-6 text-center">
-          <div className="space-y-4 mb-12">
+          <div className="space-y-4 mb-8">
             <FadeIn delay={600}>
               <h1 className="text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 Navigate the Evolving Forex Landscape
@@ -39,15 +39,22 @@ const App = () => {
           </FadeIn>
 
           <FadeIn delay={1200}>
-            <p className="max-w-[36rem] mx-auto text-muted-foreground md:text-xl mt-10">
-              Unlock the power of automation and collaboration with our
-              cutting-edge SaaS solution. Boost productivity and reduce errors.
+            <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
+              By combining the strongest and weakest currencies, you can
+              identify optimal pairs for trading, leveraging minimal resistance
+              and capitalizing on market trends. This strategy, informed by the
+              score range of -7 to +7, ensures robust and effective trading
+              decisions.
             </p>
           </FadeIn>
 
           <FadeIn delay={1400}>
             <div className="mt-10 flex flex-col gap-16 sm:flex-row items-center sm:justify-center">
-              <button className="w-[15rem] h-12 inline-flex items-center justify-center px-8 font-medium text-white bg-purple-700 rounded-xl shadow transition-colors hover:border-transparent hover:bg-purple-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+              <a
+                href="https://whop.com/cge-trading/"
+                target="_blank"
+                className="w-[15rem] h-12 inline-flex items-center justify-center px-8 font-medium text-white bg-purple-700 rounded-xl shadow transition-colors hover:text-white hover:border-transparent hover:bg-purple-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -62,7 +69,7 @@ const App = () => {
                   ></path>
                 </svg>
                 Join Discord
-              </button>
+              </a>
             </div>
           </FadeIn>
         </div>
