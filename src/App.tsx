@@ -68,7 +68,7 @@ const App = () => {
     {
       logo: "/ctrader.png",
       heading: "Join my $100K USD challenge",
-      text: "Subscribe to DCF Bets with Ctrader Copy and watch your portfolio soar. Here's the deal:",
+      text: "Subscribe to DCF Bets with cTrader Copy and watch your portfolio soar. Here's the deal:",
       items: [
         "Performance fee: 25%",
         "Management fee: 5%",
