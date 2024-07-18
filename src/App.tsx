@@ -197,7 +197,7 @@ const App = () => {
               </div>
               <div className="hidden lg:block absolute top-0 right-[4.25rem] w-40 h-[46px] bg-gradient-to-l from-black to-transparent " />
             </div>
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-16 lg:gap-12">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6 lg:px-16 lg:gap-12">
               {cardsData.map((card, index) => (
                 <Card
                   key={index}
