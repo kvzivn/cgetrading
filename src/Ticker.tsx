@@ -13,27 +13,35 @@ const Ticker: React.FC = () => {
     const widgetConfig = {
       symbols: [
         {
-          proName: "FOREXCOM:SPXUSD",
-          title: "S&P 500 Index",
+          description: "EUR/USD",
+          proName: "ICMARKETS:EURUSD",
         },
         {
-          proName: "FOREXCOM:NSXUSD",
-          title: "US 100 Cash CFD",
+          description: "USD/JPY",
+          proName: "ICMARKETS:USDJPY",
         },
         {
-          proName: "FX_IDC:EURUSD",
-          title: "EUR to USD",
+          description: "GBP/USD",
+          proName: "ICMARKETS:GBPUSD",
         },
         {
-          proName: "BITSTAMP:BTCUSD",
-          title: "Bitcoin",
+          description: "AUD/USD",
+          proName: "ICMARKETS:AUDUSD",
         },
         {
-          proName: "BITSTAMP:ETHUSD",
-          title: "Ethereum",
+          description: "USD/CAD",
+          proName: "ICMARKETS:USDCAD",
         },
         {
-          description: "Gold",
+          description: "USD/CHF",
+          proName: "ICMARKETS:USDCHF",
+        },
+        {
+          description: "NZD/USD",
+          proName: "ICMARKETS:NZDUSD",
+        },
+        {
+          description: "XAU/USD",
           proName: "ICMARKETS:XAUUSD",
         },
       ],

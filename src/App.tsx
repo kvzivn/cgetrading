@@ -224,7 +224,7 @@ const App = () => {
 }
 
 const Card = ({ logo, heading, text, items, ctaText, link }) => (
-  <div className="border border-slate-900 bg-[#0f091a]/80 rounded-xl">
+  <div className="border border-slate-800 bg-[#170e27]/90 rounded-xl">
     <div className="grid gap-8 p-8">
       <img
         src={logo}
@@ -233,13 +233,13 @@ const Card = ({ logo, heading, text, items, ctaText, link }) => (
       />
       <div>
         <h3 className="text-3xl font-semibold text-white">{heading}</h3>
-        <p className="mt-2 text-xl text-purple-400/80">{text}</p>
+        <p className="mt-2 text-xl text-purple-400/90">{text}</p>
 
         <ul className="mt-6">
           {items.map((item, index) => (
             <li
               key={index}
-              className="flex items-center mt-1 text-slate-400 text-lg"
+              className="flex items-center mt-1 text-slate-300/90 text-lg"
             >
               <span className="bullet text-2xl mr-2">&#8226;</span> {item}
             </li>
