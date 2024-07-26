@@ -141,13 +141,13 @@ const App = () => {
 
               <FadeIn delay={1000}>
                 <div className="relative px-5">
-                  <span className="absolute -top-[4rem] -right-[11rem] text-lg font-semibold">
+                  <span className="hidden sm:block absolute -top-[4rem] -right-[11rem] text-lg font-semibold">
                     Video on 3rd slide!
                   </span>
                   <img
                     src="/arrow.svg"
                     alt="arrow"
-                    className="absolute w-5 rotate-45 opacity-80 -top-12 -right-16"
+                    className="hidden sm:block absolute w-5 rotate-45 opacity-80 -top-12 -right-16"
                   />
                   <BackgroundGradient className="rounded-xl bg-background p-0.25">
                     <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
