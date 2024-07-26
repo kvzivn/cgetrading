@@ -1,0 +1,14 @@
+:root {
+  --tv-color-platform-background: red;
+  --tv-color-pane-background: red;
+  --tv-color-toolbar-button-background-hover: blue;
+  --tv-color-toolbar-button-background-secondary-hover: blue;
+  --tv-color-toolbar-button-background-expanded: blue;
+  --tv-color-toolbar-button-text: blue;
+  --tv-color-toolbar-button-text-hover: blue;
+  --tv-color-toolbar-button-text-active: blue;
+  --tv-color-toolbar-button-text-active-hover: blue;
+  --tv-color-item-active-text: blue;
+  --tv-color-toolbar-toggle-button-background-active: blue;
+  --tv-color-toolbar-toggle-button-background-active-hover: blue;
+}
