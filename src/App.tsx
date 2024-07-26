@@ -90,8 +90,8 @@ const App = () => {
       heading: "Free DCF bets on TradingView",
       text: "Follow me on TradingView for exclusive access to:",
       items: [
-        "Consistent profits with my proven capital flow strategies",
-        "Valuable market insights trough detailed trade analysis",
+        "Consistent profits with my proven capital flow strategies"
+        "Valuable market insights through detailed trade analysis",
         "Daily trade picks to give you an edge in the market",
       ],
       ctaText: "Follow me",
