@@ -184,11 +184,11 @@ const App = () => {
         <div>
           <section className="w-full py-12">
             <div className="relative mb-14 lg:px-[4.25rem]">
-              <div className="hidden lg:block absolute top-0 left-[4.25rem] w-40 h-[46px] bg-gradient-to-r from-black to-transparent" />
+              <div className="hidden lg:block absolute top-0 left-[4.25rem] w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
               <div>
                 <Ticker />
               </div>
-              <div className="hidden lg:block absolute top-0 right-[4.25rem] w-40 h-[46px] bg-gradient-to-l from-black to-transparent " />
+              <div className="hidden lg:block absolute top-0 right-[4.25rem] w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
             </div>
 
             <div className="px-6 md:px-40">
