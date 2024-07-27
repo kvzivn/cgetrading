@@ -105,7 +105,7 @@ const App = () => {
       heading: "Join the ultimate Discord trading server",
       text: "Here's what we've got for you:",
       items: [
-        "Live DCF Bets from 08-16 GMT+2 ($100K USD Challenge)",
+        "Live DCF Bets ($100K USD Challenge)",
         "Exclusive, invite-only Scripts on TradingView",
         "Top-notch Support",
       ],
