@@ -8,7 +8,6 @@ declare global {
   }
 }
 
-
 const TradingViewChart: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -37,7 +36,7 @@ const TradingViewChart: React.FC = () => {
       <div className="absolute top-0 z-10 left-1/2 -translate-x-1/2 w-full h-[4px] bg-[#170e27]" />
       <div className="absolute bottom-0 z-10 left-1/2 -translate-x-1/2 w-full h-[23px] bg-[#170e27]" />
       <div className="absolute bottom-0 z-10 left-0 w-[4px] h-96 bg-[#170e27]" />
-      <div className="absolute bottom-0 z-10 right-0 w-[4px] h-96 bg-[#170e27]" />
+      <div className="absolute bottom-0 z-10 -right-0.5 w-[4px] h-96 bg-[#170e27]" />
       <div id="tradingview_chart" ref={containerRef} className="h-96" />
     </div>
   )

@@ -9,7 +9,6 @@ import DiscordBtn from "./DiscordBtn"
 import TradingViewChart from "./TradingViewChart"
 import EmailSignUp from "./EmailSignUp"
 
-
 const HeroHighlight = ({
   children,
   className,
@@ -85,7 +84,7 @@ const App = () => {
       logo: "/mql5.png",
       heading: "Visit my MQL5 store",
       text: "Discover the magic behind our 4.8-star rated tools (based on 25 reviews) and transform your trading game with:",
-      items: ["The Trap Play", "Breakout Lines", "MIDAS Trading Tools"],
+      items: ["Breakout Lines", "The Trap Play", "Trading Cycle Array"],
       ctaText: "Visit the store",
       link: "https://www.mql5.com/en/users/411623/seller",
     },
@@ -106,7 +105,7 @@ const App = () => {
       heading: "Join the ultimate Discord trading server",
       text: "Here's what we've got for you:",
       items: [
-        "Live DCF Bets ($100K USD Challenge)",
+        "Live DCF Bets from 08-16 GMT+2 ($100K USD Challenge)",
         "Exclusive, invite-only Scripts on TradingView",
         "Top-notch Support",
       ],
@@ -140,10 +139,8 @@ const App = () => {
                 </FadeIn>
               </div>
 
-         
-                    
-                         
-                  />
+              <FadeIn delay={1000}>
+                <div className="relative px-5">
                   <BackgroundGradient className="rounded-xl bg-background p-0.25">
                     <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
                       <iframe
@@ -176,18 +173,18 @@ const App = () => {
           </div>
         </div>
 
-        <div>
+        <div className="px-6 sm:px-16 xl:px-32">
           <section className="w-full py-12">
-            <div className="relative mb-14 lg:px-[4.25rem]">
-              <div className="hidden lg:block absolute top-0 left-[4.25rem] w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
+            <div className="relative mb-14 lg:px-[2.5rem]">
+              <div className="hidden lg:block absolute top-0 left-[2.5rem] w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
               <div>
                 <Ticker />
               </div>
-              <div className="hidden lg:block absolute top-0 right-[4.25rem] w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
+              <div className="hidden lg:block absolute top-0 right-[2.5rem] w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
             </div>
 
-            <div className="px-6 md:px-40">
-              <div className="container mx-auto mb-12 grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-10 sm:py-24 lg:px-16 lg:gap-24 border border-slate-700 bg-[#170e27]/90 rounded-xl">
+            <div>
+              <div className="container mx-auto mb-12 grid grid-cols-1 xl:grid-cols-2 gap-12 p-8 md:py-12 xl:py-16 xl:px-16 lg:gap-24 border border-slate-700 bg-[#170e27]/90 rounded-xl">
                 <div className="grid place-items-center">
                   <div>
                     <h2 className="text-4xl mb-6 font-bold tracking-tighter md:text-6xl bg-gradient-to-r from-purple-500 via-purple-300 to-white inline-block text-transparent bg-clip-text">
@@ -211,7 +208,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6 lg:px-16 lg:gap-12">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
               {cardsData.map((card, index) => (
                 <Card
                   key={index}
