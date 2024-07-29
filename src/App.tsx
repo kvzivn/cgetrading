@@ -139,9 +139,7 @@ const App = () => {
                 </FadeIn>
               </div>
 
-              <FadeIn delay={1000}>
-                <div className="relative px-5">
-                  <span className="hidden sm:block absolute -top-[4rem] -right-[11rem] text-lg font-semibold">
+         
                     
                          
                   />
