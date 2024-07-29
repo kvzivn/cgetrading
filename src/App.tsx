@@ -173,14 +173,20 @@ const App = () => {
           </div>
         </div>
 
+        {/* mobile ticker */}
+        <div className="md:hidden relative mb-8 mt-6 md:mt-0">
+          <Ticker />
+        </div>
+
         <div className="px-6 sm:px-16 xl:px-32">
           <section className="w-full py-12">
-            <div className="relative mb-14 lg:px-[2.5rem]">
-              <div className="hidden lg:block absolute top-0 left-[2.5rem] w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
+            {/* desktop ticker */}
+            <div className="hidden md:block relative mb-14">
+              <div className="absolute top-0 left-0 w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
               <div>
                 <Ticker />
               </div>
-              <div className="hidden lg:block absolute top-0 right-[2.5rem] w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
+              <div className="absolute top-0 right-0 w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
             </div>
 
             <div>
