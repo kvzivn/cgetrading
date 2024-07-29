@@ -199,7 +199,7 @@ const App = () => {
                     </h2>
                     <p className="text-xl text-gray-300">
                       We are excited to announce that the Trap Play Indicator, a
-                      cutting-edge liquidity pattern tool, is almost ready for
+                      top-notch liquidity pattern tool, is almost ready for
                       launch on the TradingView platform. Sign up for the
                       waiting list now to be among the first to access this
                       exclusive tool.
