@@ -198,9 +198,11 @@ const App = () => {
                       <br /> Play Indicator
                     </h2>
                     <p className="text-xl text-gray-300">
-                     We are excited to announce that the Trap Play Indicator,
-                     a cutting-edge liquidity pattern tool, is ready for launch on the TradingView platform.
-                     Please note, this script is exclusively available to our Discord members and cannot be purchased.
+                      We are excited to announce that the Trap Play Indicator, a
+                      cutting-edge liquidity pattern tool, is almost ready for
+                      launch on the TradingView platform. Sign up for the
+                      waiting list now to be among the first to access this
+                      exclusive tool. Please note, this tool is not available for purchase.
                     
                     </p>
                     <EmailSignUp />
