@@ -8,6 +8,7 @@ declare global {
   }
 }
 
+
 const TradingViewChart: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null)
 
