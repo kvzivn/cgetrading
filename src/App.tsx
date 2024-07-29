@@ -9,6 +9,7 @@ import DiscordBtn from "./DiscordBtn"
 import TradingViewChart from "./TradingViewChart"
 import EmailSignUp from "./EmailSignUp"
 
+
 const HeroHighlight = ({
   children,
   className,
