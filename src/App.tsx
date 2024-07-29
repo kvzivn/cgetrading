@@ -202,7 +202,7 @@ const App = () => {
                       cutting-edge liquidity pattern tool, is almost ready for
                       launch on the TradingView platform. Sign up for the
                       waiting list now to be among the first to access this
-                      exclusive tool. Please note, this tool is not available for purchase.
+                      exclusive tool.
                     
                     </p>
                     <EmailSignUp />
