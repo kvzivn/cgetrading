@@ -105,7 +105,7 @@ const App = () => {
       heading: "Join the ultimate Discord trading server",
       text: "Here's what we've got for you:",
       items: [
-        "Real-time Trading Signals",
+        "Real-time Liquidity Alerts, in line with DCF",
         "Exclusive, invite-only Scripts on TradingView",
         "Top-notch Support",
       ],
