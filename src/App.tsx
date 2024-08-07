@@ -78,7 +78,7 @@ const App = () => {
         "Let's make some serious gains together!",
       ],
       ctaText: "Join challenge",
-      link: "https://ct-sc.icmarkets.com/copy/strategy/85959?u=CGE_Trading",
+      link: "",
     },
     {
       logo: "/mql5.png",
