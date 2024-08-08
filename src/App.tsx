@@ -94,9 +94,9 @@ const App = () => {
       heading: "Start trading with IG",
       text: "For my Swedish clients – open an ISK account and receive 500 SEK when you start trading.",
       items: [
-        "Leverage Turbo24 and Knock-Outs",
-        "Over 16,000 markets, including CFDs and options",
         "Low flat-rate tax on ISK accounts (1-2%)",
+        "Turbo24 and Knock-Outs",
+        "Over 16,000 markets",
       ],
       ctaText: "Sign up",
       link: "https://refer.ig.com/carlgustave-6",
