@@ -8,6 +8,7 @@ import { Spotlight } from "./Spotlight"
 import DiscordBtn from "./DiscordBtn"
 import TradingViewChart from "./TradingViewChart"
 import EmailSignUp from "./EmailSignUp"
+import TradingViewDCF from "./TradingViewDCF"
 
 const HeroHighlight = ({
   children,
@@ -69,36 +70,12 @@ const HeroHighlight = ({
 const App = () => {
   const cardsData = [
     {
-      logo: "/ctrader.png",
-      heading: "Join my $100K USD challenge",
-      text: "Subscribe to DCF Bets with cTrader Copy and watch your portfolio soar. Here's the deal:",
-      items: [
-        "Performance fee: 25%",
-        "Management fee: 5%",
-        "Let's make some serious gains together!",
-      ],
-      ctaText: "Join challenge",
-      link: "",
-    },
-    {
       logo: "/mql5.png",
       heading: "Visit my MQL5 store",
       text: "Discover the magic behind our 4.8-star rated tools (based on 25 reviews) and transform your trading game with:",
       items: ["Breakout Lines", "The Trap Play", "Trading Cycle Array"],
       ctaText: "Visit the store",
       link: "https://www.mql5.com/en/users/411623/seller",
-    },
-    {
-      logo: "/tradingview.png",
-      heading: "Free DCF bets on TradingView",
-      text: "Follow me on TradingView for exclusive access to:",
-      items: [
-        "Consistent profits with my proven capital flow strategies",
-        "Valuable market insights through detailed trade analysis",
-        "Daily trade picks to give you an edge in the market",
-      ],
-      ctaText: "Follow me",
-      link: "https://www.tradingview.com/u/CGE_Trading/",
     },
     {
       logo: "/discord.png",
@@ -111,6 +88,30 @@ const App = () => {
       ],
       ctaText: "Join Discord",
       link: "https://whop.com/cge-trading/",
+    },
+    {
+      logo: "/ig.png",
+      heading: "Start trading with IG",
+      text: "For my Swedish clients – open an investment savings account (ISK) for exchange-traded products and receive 500 SEK when you start trading.",
+      items: [
+        "Take advantage of Turbo24 and Knock-Outs",
+        "Access to over 16,000 markets, including CFDs and options",
+        "Low flat-rate tax on ISK accounts (1-2%)",
+      ],
+      ctaText: "Sign up",
+      link: "https://refer.ig.com/carlgustave-6",
+    },
+    {
+      logo: "/ctrader.png",
+      heading: "Join my $100K USD challenge",
+      text: "Subscribe to DCF Bets with cTrader Copy and watch your portfolio soar. Here's the deal:",
+      items: [
+        "Performance fee: 25%",
+        "Management fee: 5%",
+        "Let's make some serious gains together!",
+      ],
+      ctaText: "Join challenge",
+      link: "",
     },
   ]
 
@@ -139,20 +140,36 @@ const App = () => {
                 </FadeIn>
               </div>
 
-              <FadeIn delay={1000}>
-                <div className="relative px-5">
-                  <BackgroundGradient className="rounded-xl bg-background p-0.25">
-                    <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
-                      <iframe
-                        className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
-                        loading="lazy"
-                        src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
-                        allow="fullscreen"
-                      ></iframe>
-                    </div>
-                  </BackgroundGradient>
-                </div>
-              </FadeIn>
+              <div className="flex flex-col gap-12 w-full xl:flex-row xl:w-[80rem]">
+                <FadeIn delay={1000} className="w-full">
+                  <div className="relative px-5 w-full">
+                    <BackgroundGradient className="rounded-xl bg-background p-0.25">
+                      <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
+                        <iframe
+                          className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
+                          loading="lazy"
+                          src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
+                          allow="fullscreen"
+                        ></iframe>
+                      </div>
+                    </BackgroundGradient>
+                  </div>
+                </FadeIn>
+                <FadeIn delay={1200} className="w-full">
+                  <div className="relative px-5 w-full">
+                    <BackgroundGradient className="rounded-xl bg-background p-0.25">
+                      <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
+                        <iframe
+                          className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
+                          loading="lazy"
+                          src="https://www.canva.com/design/DAGNS4CBz04/XT3htlX6mVdNMQOXk3PpcA/view?embed"
+                          allow="fullscreen"
+                        ></iframe>
+                      </div>
+                    </BackgroundGradient>
+                  </div>
+                </FadeIn>
+              </div>
 
               <FadeIn delay={1200}>
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
@@ -197,20 +214,80 @@ const App = () => {
                       Unveiling The Trap
                       <br /> Play Indicator
                     </h2>
-                    <p className="text-xl text-gray-300">
-                      We are excited to announce that the Trap Play Indicator, a
-                      top-notch liquidity pattern tool, is almost ready for
-                      launch on the TradingView platform. Sign up for the
-                      waiting list now to be among the first to access this
+                    <p className="text-xl text-gray-300 max-w-lg">
+                      We’re excited to announce that the Trap Play Indicator, a
+                      premium liquidity tool, is now ready for launch on the
+                      TradingView platform. Be among the first to access this
                       exclusive tool.
-                    
                     </p>
-                    <EmailSignUp />
+                    <div className="flex gap-4 mt-8">
+                      <a
+                        href="https://www.tradingview.com/script/ky5wsKTC-The-Trap-Play/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex h-12 items-center justify-center rounded-xl bg-white text-black px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-200 hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                      >
+                        Learn more
+                      </a>
+                      <a
+                        href="https://whop.com/cge-trading/?pass=prod_op7Sw860geSzs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex h-12 items-center justify-center rounded-xl bg-purple-700 text-white px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                      >
+                        Purchase now
+                      </a>
+                    </div>
                   </div>
                 </div>
 
                 <div>
                   <TradingViewChart />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="container mx-auto mb-12 flex flex-col-reverse xl:flex-row gap-12 p-8 md:py-12 xl:py-16 xl:px-16 lg:gap-2 border border-slate-700 bg-[#170e27]/90 rounded-xl">
+                <div className="w-full">
+                  <TradingViewDCF />
+                </div>
+                <div className="grid place-items-center w-full">
+                  <div>
+                    <h2 className="text-4xl mb-6 font-bold tracking-tighter md:text-6xl bg-gradient-to-r from-purple-500 via-purple-300 to-white inline-block text-transparent bg-clip-text">
+                      Free DCF bets
+                      <br /> on TradingView
+                    </h2>
+                    <p className="mt-2 text-xl text-purple-400/90">
+                      Follow me on TradingView for exclusive access to:
+                    </p>
+                    <ul className="mt-6">
+                      <li className="flex items-center mt-1 text-slate-300/90 text-lg">
+                        <span className="bullet text-2xl mr-2">&#8226;</span>{" "}
+                        Consistent profits with my proven capital flow
+                        strategies
+                      </li>
+                      <li className="flex items-center mt-1 text-slate-300/90 text-lg">
+                        <span className="bullet text-2xl mr-2">&#8226;</span>{" "}
+                        Valuable market insights through detailed trade analysis
+                      </li>
+
+                      <li className="flex items-center mt-1 text-slate-300/90 text-lg">
+                        <span className="bullet text-2xl mr-2">&#8226;</span>{" "}
+                        Daily trade picks to give you an edge in the market
+                      </li>
+                    </ul>
+                    <div className="mt-8">
+                      <a
+                        href="https://www.tradingview.com/u/CGE_Trading/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex h-12 items-center justify-center rounded-xl bg-purple-700 text-white px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                      >
+                        Follow me
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
