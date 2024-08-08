@@ -79,8 +79,8 @@ const App = () => {
     },
     {
       logo: "/discord.png",
-      heading: "Join the ultimate Discord trading server",
-      text: "Here's what we've got for you:",
+      heading: "Join my Discord server",
+      text: "Here's what we offer in the ulitmate trading discord server:",
       items: [
         "Real-time Liquidity Alerts, in line with DCF",
         "Exclusive, invite-only Scripts on TradingView",
@@ -92,27 +92,27 @@ const App = () => {
     {
       logo: "/ig.png",
       heading: "Start trading with IG",
-      text: "For my Swedish clients – open an investment savings account (ISK) for exchange-traded products and receive 500 SEK when you start trading.",
+      text: "For my Swedish clients – open an ISK account and receive 500 SEK when you start trading.",
       items: [
-        "Take advantage of Turbo24 and Knock-Outs",
-        "Access to over 16,000 markets, including CFDs and options",
+        "Leverage Turbo24 and Knock-Outs",
+        "Over 16,000 markets, including CFDs and options",
         "Low flat-rate tax on ISK accounts (1-2%)",
       ],
       ctaText: "Sign up",
       link: "https://refer.ig.com/carlgustave-6",
     },
-    {
-      logo: "/ctrader.png",
-      heading: "Join my $100K USD challenge",
-      text: "Subscribe to DCF Bets with cTrader Copy and watch your portfolio soar. Here's the deal:",
-      items: [
-        "Performance fee: 25%",
-        "Management fee: 5%",
-        "Let's make some serious gains together!",
-      ],
-      ctaText: "Join challenge",
-      link: "",
-    },
+    // {
+    //   logo: "/ctrader.png",
+    //   heading: "Join my $100K USD challenge",
+    //   text: "Subscribe to DCF Bets with cTrader Copy and watch your portfolio soar. Here's the deal:",
+    //   items: [
+    //     "Performance fee: 25%",
+    //     "Management fee: 5%",
+    //     "Let's make some serious gains together!",
+    //   ],
+    //   ctaText: "Join challenge",
+    //   link: "",
+    // },
   ]
 
   return (
@@ -292,7 +292,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-12">
               {cardsData.map((card, index) => (
                 <Card
                   key={index}
