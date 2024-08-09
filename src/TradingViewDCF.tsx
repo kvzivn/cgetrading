@@ -19,7 +19,7 @@ const TradingViewDCF: React.FC = () => {
       if (window.TradingView) {
         new window.TradingView.chart({
           container_id: "tradingview_chart_dcf",
-          chart: "l2KwpTTE",
+          chart: "OWzvG3s8",
           autosize: true,
         })
       }
