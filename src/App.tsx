@@ -215,8 +215,8 @@ const App = () => {
                       <br /> Play Indicator
                     </h2>
                     <p className="text-xl text-gray-300 max-w-lg">
-                      We’re excited to announce that the Trap Play Indicator, a
-                      premium liquidity tool, is now ready for launch on the
+                      We’re excited to announce that the Trap Play Indicator,
+                      a premium liquidity tool, is now ready for launch on the
                       TradingView platform. Be among the first to access this
                       exclusive tool.
                     </p>
