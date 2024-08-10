@@ -72,16 +72,16 @@ const App = () => {
       logo: "/mql5.png",
       heading: "Visit my MQL5 store",
       text: "Discover the magic behind our 4.8-star rated tools (based on 25 reviews) and transform your trading game with:",
-      items: ["Breakout Lines", "The Trap Play", "Trading Cycle Array"],
+      items: ["Breakout Lines", "The Trap Play", "MIDAS Trading Tools"],
       ctaText: "Visit the store",
       link: "https://www.mql5.com/en/users/411623/seller",
     },
     {
       logo: "/discord.png",
       heading: "Join my Discord server",
-      text: "Here's what we offer in the ulitmate trading discord server:",
+      text: "Supercharge your trading journey and reach your financial targets, here's what we offer in our Discord server:",
       items: [
-        "Real-time Liquidity Alerts, in line with DCF",
+        "Real-time Liquidity Alerts",
         "Exclusive, invite-only Scripts on TradingView",
         "Top-notch Support",
       ],
@@ -214,8 +214,8 @@ const App = () => {
                       <br /> Play Indicator
                     </h2>
                     <p className="text-xl text-gray-300 max-w-lg">
-                      We’re excited to announce that the Trap Play Indicator, a
-                      premium liquidity tool, is now ready for launch on the
+                      We’re excited to announce that the Trap Play Indicator,
+                      a premium liquidity tool, is now ready for launch on the
                       TradingView platform. Be among the first to access this
                       exclusive tool.
                     </p>
@@ -226,7 +226,7 @@ const App = () => {
                         rel="noopener noreferrer"
                         className="inline-flex h-12 items-center justify-center rounded-xl bg-white text-black px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-200 hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       >
-                        Learn more
+                        Explore
                       </a>
                       <a
                         href="https://whop.com/cge-trading/?pass=prod_op7Sw860geSzs"
@@ -234,7 +234,7 @@ const App = () => {
                         rel="noopener noreferrer"
                         className="inline-flex h-12 items-center justify-center rounded-xl bg-purple-700 text-white px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       >
-                        Purchase now
+                        Purchase
                       </a>
                     </div>
                   </div>
