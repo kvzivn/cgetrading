@@ -227,7 +227,7 @@ const App = () => {
                         rel="noopener noreferrer"
                         className="inline-flex h-12 items-center justify-center rounded-xl bg-white text-black px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-200 hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       >
-                        Learn more
+                        Explore
                       </a>
                       <a
                         href="https://whop.com/cge-trading/?pass=prod_op7Sw860geSzs"
@@ -235,7 +235,7 @@ const App = () => {
                         rel="noopener noreferrer"
                         className="inline-flex h-12 items-center justify-center rounded-xl bg-purple-700 text-white px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       >
-                        Purchase now
+                        Purchase
                       </a>
                     </div>
                   </div>
