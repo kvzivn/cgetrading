@@ -7,7 +7,6 @@ import { cn } from "./utils/cn"
 import { Spotlight } from "./Spotlight"
 import DiscordBtn from "./DiscordBtn"
 import TradingViewChart from "./TradingViewChart"
-import EmailSignUp from "./EmailSignUp"
 import TradingViewDCF from "./TradingViewDCF"
 
 const HeroHighlight = ({
@@ -124,7 +123,7 @@ const App = () => {
         />
 
         <div className="w-full relative flex flex-col items-center justify-center">
-          <div className="flex flex-col z-10 items-center justify-center w-full py-12 md:py-24 lg:py-8 text-slate-300">
+          <div className="flex flex-col z-10 items-center justify-center w-full py-12 md:py-24 lg:pb-8 lg:pt-0 text-slate-300">
             <div className="px-4 md:px-6 text-center">
               <div className="space-y-4 mb-8">
                 <FadeIn delay={600}>
@@ -254,7 +253,7 @@ const App = () => {
                 </div>
                 <div className="grid place-items-center w-full">
                   <div>
-                    <h2 className="text-4xl mb-6 font-bold tracking-tighter md:text-6xl bg-gradient-to-r from-purple-500 via-purple-300 to-white inline-block text-transparent bg-clip-text">
+                    <h2 className="text-4xl mb-6 font-bold tracking-tighter md:text-[3.75rem] md:leading-[1.15] bg-gradient-to-r from-purple-500 via-purple-300 to-white inline-block text-transparent bg-clip-text">
                       Free DCF bets
                       <br /> on TradingView
                     </h2>
