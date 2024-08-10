@@ -72,7 +72,7 @@ const App = () => {
       logo: "/mql5.png",
       heading: "Visit my MQL5 store",
       text: "Discover the magic behind our 4.8-star rated tools (based on 25 reviews) and transform your trading game with:",
-      items: ["Breakout Lines", "The Trap Play", "MIDAS Trading Tools"],
+      items: ["Breakout Lines", "The Trap Play", "Trading Cycle Array"],
       ctaText: "Visit the store",
       link: "https://www.mql5.com/en/users/411623/seller",
     },
