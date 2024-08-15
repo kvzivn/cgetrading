@@ -234,7 +234,7 @@ const App = () => {
                         rel="noopener noreferrer"
                         className="inline-flex h-12 items-center justify-center rounded-xl bg-purple-700 text-white px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       >
-                        7-Day free trial
+                        7-day trial
                       </a>
                     </div>
                   </div>
