@@ -42,7 +42,7 @@ export const BackgroundGradient = ({
         }}
         className={cn(
           "absolute inset-0 rounded-xl z-[1] opacity-60 group-hover:opacity-100 blur-lg transition duration-200 will-change-transform",
-          " bg-[radial-gradient(circle_farthest-side_at_0_100%,#000000,transparent),radial-gradient(circle_farthest-side_at_100%_0,#000000,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#ffe45f,transparent),radial-gradient(circle_farthest-side_at_0_0,#000000,#000000)]"
+          " bg-[radial-gradient(circle_farthest-side_at_0_100%,#000000,transparent),radial-gradient(circle_farthest-side_at_100%_0,#000000,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#000000,transparent),radial-gradient(circle_farthest-side_at_0_0,#000000,#000000)]"
         )}
       />
       <motion.div
