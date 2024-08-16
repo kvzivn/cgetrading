@@ -91,7 +91,7 @@ const App = () => {
     {
       logo: "/ig.png",
       heading: "Start trading with IG",
-      text: "For Swedish clients – open an ISK account and receive 500 SEK when you start trading.",
+      text: "For my Swedish clients – open an ISK account and receive 500 SEK when you start trading.",
       items: [
         "Low flat-rate tax on ISK accounts (1-2%)",
         "Turbo24 and Knock-Outs",
