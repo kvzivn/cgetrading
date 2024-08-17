@@ -254,7 +254,7 @@ const App = () => {
                 <div className="grid place-items-center w-full">
                   <div>
                     <h2 className="text-4xl mb-6 font-bold tracking-tighter md:text-[3.75rem] md:leading-[1.15] bg-gradient-to-r from-purple-500 via-purple-300 to-white inline-block text-transparent bg-clip-text">
-                      Free DCF Bets
+                      DCF Bets
                       <br /> on TradingView
                     </h2>
                     <p className="mt-2 text-xl text-purple-400/90">
