@@ -128,7 +128,7 @@ const App = () => {
               <div className="space-y-4 mb-8">
                 <FadeIn delay={600}>
                   <h1 className="text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-400 via-purple-300 to-white inline-block text-transparent bg-clip-text">
-                    Navigate the Evolving Forex Landscape
+                    Navigate the Evolving Gold Market
                   </h1>
                 </FadeIn>
 
@@ -147,7 +147,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
+                          src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view"
                           allow="fullscreen"
                         ></iframe>
                       </div>
@@ -161,7 +161,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGNS4CBz04/XT3htlX6mVdNMQOXk3PpcA/view?embed"
+                          src="https://www.canva.com/design/DAGOj7PMOds/SndLg9a1sPJV2ZUKRIXFNA/view"
                           allow="fullscreen"
                         ></iframe>
                       </div>
@@ -172,11 +172,9 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
-                  By combining the strongest and weakest currencies, you can
-                  identify optimal pairs for trading, leveraging minimal
-                  resistance and capitalizing on market trends. This strategy,
-                  informed by the score range of -7 to +7, ensures robust and
-                  effective trading decisions.
+                  This model allows you to take advantage of minimal resistance and capitalize on market trends.
+                  Driven by a score range of -7 to +7, this method ensures well-informed and effective trading
+                  decisions while warning of potential liquidity traps."
                 </p>
               </FadeIn>
 
