@@ -147,7 +147,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view"
+                          src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
                           allow="fullscreen"
                         ></iframe>
                       </div>
@@ -161,7 +161,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGOj7PMOds/SndLg9a1sPJV2ZUKRIXFNA/view"
+                          src="https://www.canva.com/design/DAGOj7PMOds/SndLg9a1sPJV2ZUKRIXFNA/view?embed"
                           allow="fullscreen"
                         ></iframe>
                       </div>
