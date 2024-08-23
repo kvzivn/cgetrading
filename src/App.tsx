@@ -172,10 +172,9 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
-                  Unlock the potential of your XAU/USD trades with a strategic approach that focuses on identifying
-                  the prevailing trend. By leveraging minimal resistance and aligning your strategy with the market,
-                  you can enhance your trading effectiveness. This model, guided by a score range of -7 to +7,
-                  provides a robust framework for making strong, well-informed trading decisions.
+                  This model lets you capitalize on minimal resistance and market trends with ease. 
+                  Guided by a score range of -7 to +7, it ensures your trading decisions are both savvy and effective, 
+                  while also alerting you to potential liquidity traps.
                 </p>
               </FadeIn>
 
