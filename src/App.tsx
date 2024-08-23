@@ -172,10 +172,7 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
-                  Get ready to supercharge your XAU/USD trades!
-                  This model lets you capitalize on minimal resistance and market trends with ease. 
-                  Guided by a score range of -7 to +7, it ensures your trading decisions are both savvy and effective, 
-                  while also alerting you to liquidity traps.
+                  Get ready to supercharge your XAU/USD trades! This model helps you effortlessly capitalize on minimal resistance and market trends. Guided by a score range of -7 to +7, it ensures your trading decisions are both savvy and effective, while also alerting you to potential liquidity traps.
                 </p>
               </FadeIn>
 
