@@ -174,7 +174,7 @@ const App = () => {
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
                   This model allows you to take advantage of minimal resistance and capitalize on market trends.
                   Driven by a score range of -7 to +7, this method ensures well-informed and effective trading
-                  decisions while warning of potential liquidity traps."
+                  decisions while warning of potential liquidity traps.
                 </p>
               </FadeIn>
 
