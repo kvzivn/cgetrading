@@ -133,7 +133,7 @@ const App = () => {
                 </FadeIn>
 
                 <FadeIn delay={800}>
-                  <h2 className="text-[1rem] sm:text-[1.15rem] uppercase font-bold tracking-wider text-purple-400/80">
+                  <h2 className="text-[1rem] sm:text-[1.15rem] uppercase font-bold tracking-wider text-gold-400/80">
                     Insights from CGE Trading{" "}
                   </h2>
                 </FadeIn>
