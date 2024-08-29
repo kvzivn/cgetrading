@@ -128,7 +128,7 @@ const App = () => {
               <div className="space-y-4 mb-8">
                 <FadeIn delay={600}>
                   <h1 className="text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-400 via-purple-300 to-white inline-block text-transparent bg-clip-text">
-                    Navigate the Evolving Gold Market
+                    Navigate the Evolving Gold & Forex Market
                   </h1>
                 </FadeIn>
 
@@ -161,7 +161,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGOj7PMOds/SndLg9a1sPJV2ZUKRIXFNA/view?embed"
+                          src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
                           allow="fullscreen"
                         ></iframe>
                       </div>
@@ -172,7 +172,7 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[38rem] mx-auto text-muted-foreground md:text-xl mt-10">
-                  Get ready to supercharge your XAU/USD trades! This model helps you effortlessly capitalize on minimal resistance and market trends. Guided by a score range of -7 to +7, it ensures your trading decisions are both savvy and effective, while also alerting you to potential liquidity traps.
+                 Get ready to supercharge your trading game! This model helps you effortlessly capitalize on minimal resistance and market trends. Guided by a score range of -7 to +7, it ensures your trading decisions are both savvy and effective, while also alerting you to potential liquidity traps.
                 </p>
               </FadeIn>
 
