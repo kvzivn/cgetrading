@@ -197,21 +197,6 @@ const App = () => {
                     />{" "}
                     store
                   </a>
-
-                  <a
-                    href="https://www.mql5.com/en/market/product/101755"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex w-64 h-16 items-center justify-center rounded-xl bg-white text-black px-6 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-purple-200 hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                  >
-                    Buy my{" "}
-                    <img
-                      src="/quant-logo.png"
-                      alt="quant"
-                      className="h-7 mr-1.5 ml-2"
-                    />{" "}
-                    TrapBot
-                  </a>
                 </div>
               </FadeIn>
             </div>
