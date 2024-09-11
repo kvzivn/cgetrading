@@ -227,6 +227,16 @@ const App = () => {
                           loading="lazy"
                           src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
                           allow="fullscreen"
+                          onLoad={() => {
+                            // This ensures the iframe loads after everything else
+                            window.requestIdleCallback(() => {
+                              const iframe = document.querySelector("iframe")
+                              if (iframe) {
+                                iframe.src = iframe.dataset.src ?? ""
+                              }
+                            })
+                          }}
+                          data-src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
                         ></iframe>
                       </div>
                     </BackgroundGradient>
@@ -241,6 +251,16 @@ const App = () => {
                           loading="lazy"
                           src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
                           allow="fullscreen"
+                          onLoad={() => {
+                            // This ensures the iframe loads after everything else
+                            window.requestIdleCallback(() => {
+                              const iframe = document.querySelector("iframe")
+                              if (iframe) {
+                                iframe.src = iframe.dataset.src ?? ""
+                              }
+                            })
+                          }}
+                          data-src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
                         ></iframe>
                       </div>
                     </BackgroundGradient>
