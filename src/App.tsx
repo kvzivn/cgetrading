@@ -111,32 +111,102 @@ const App = () => {
         />
 
         <div className="md:hidden relative mb-8 mt-6 md:mt-0">
-          <Ticker />
-        </div>
-
-        <div className="hidden md:block relative mb-8">
-          <div className="absolute top-0 left-0 w-40 h-[47px] bg-gradient-to-r from-black to-transparent" />
+          <div className="absolute top-0 left-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-r from-black to-transparent" />
           <div>
             <Ticker />
           </div>
-          <div className="absolute top-0 right-0 w-40 h-[47px] bg-gradient-to-l from-black to-transparent " />
+          <div className="absolute top-0 right-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-l from-black to-transparent " />
+        </div>
+
+        <div className="hidden md:block relative mb-8">
+          <div className="absolute top-0 left-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-r from-black to-transparent" />
+          <div>
+            <Ticker />
+          </div>
+          <div className="absolute top-0 right-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-l from-black to-transparent " />
         </div>
 
         <div className="w-full relative flex flex-col items-center justify-center">
-          <div className="flex flex-col z-10 items-center justify-center w-full pt-0 pb-12 md:py-24 lg:pb-8 lg:pt-0 text-slate-300">
+          <div className="flex flex-col z-10 items-center justify-center w-full pt-0 pb-12 lg:py-24 lg:pb-8 lg:pt-0 text-slate-300">
             <div className="px-4 md:px-6 text-center">
               <FadeIn delay={400}>
-                <img
-                  src="/logo2.png"
-                  alt="logo"
-                  className="h-16 w-16 mx-auto"
-                />
+                <div className="relative">
+                  <motion.img
+                    src="/bull.svg"
+                    alt="logo"
+                    className="lg:hidden absolute left-1/2 -ml-36 -top-3 h-[5.5rem] w-[5.5rem] transform scale-x-[-1]"
+                    initial={{ opacity: 0, x: -100, scaleX: -1 }}
+                    animate={{ opacity: 1, x: 0, scaleX: -1 }}
+                    transition={{
+                      duration: 0.6,
+                      delay: 0.75,
+                      ease: [0.34, 1.56, 0.64, 1],
+                    }}
+                    whileInView={{
+                      scaleX: -1,
+                      transition: { delay: 0.8, duration: 0 },
+                    }}
+                  />
+                  <img
+                    src="/logo2.png"
+                    alt="logo"
+                    className="h-16 w-16 mx-auto"
+                  />
+                  <motion.img
+                    src="/bear.svg"
+                    alt="logo"
+                    className="lg:hidden absolute right-1/2 -mr-32 top-0 h-[4rem] w-[4rem] transform scale-x-[-1]"
+                    initial={{ opacity: 0, x: 100, scaleX: -1 }}
+                    animate={{ opacity: 1, x: 0, scaleX: -1 }}
+                    transition={{
+                      duration: 0.6,
+                      delay: 1.25,
+                      ease: [0.34, 1.56, 0.64, 1],
+                    }}
+                    whileInView={{
+                      scaleX: -1,
+                      transition: { delay: 0.8, duration: 0 },
+                    }}
+                  />
+                </div>
               </FadeIn>
 
-              <div className="relative space-y-4 mt-4 mb-8">
+              <div className="space-y-4 mt-4 mb-8">
                 <FadeIn delay={600}>
-                  <h1 className="text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-400 via-purple-300 to-white inline-block text-transparent bg-clip-text">
+                  <h1 className="relative text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-400 via-purple-300 to-white inline-block text-transparent bg-clip-text">
+                    <motion.img
+                      src="/bull.svg"
+                      alt="logo"
+                      className="hidden lg:block absolute -left-[8.7rem] -bottom-6 h-[9rem] w-[9rem] transform scale-x-[-1]"
+                      initial={{ opacity: 0, x: -100, scaleX: -1 }}
+                      animate={{ opacity: 1, x: 0, scaleX: -1 }}
+                      transition={{
+                        duration: 0.6,
+                        delay: 0.75,
+                        ease: [0.34, 1.56, 0.64, 1],
+                      }}
+                      whileInView={{
+                        scaleX: -1,
+                        transition: { delay: 0.8, duration: 0 },
+                      }}
+                    />
                     Navigate the Evolving Gold & Forex Market
+                    <motion.img
+                      src="/bear.svg"
+                      alt="logo"
+                      className="hidden lg:block absolute -right-[8.7rem] -bottom-2 h-28 w-28"
+                      initial={{ opacity: 0, x: 100, scaleX: -1 }}
+                      animate={{ opacity: 1, x: 0, scaleX: -1 }}
+                      transition={{
+                        duration: 0.6,
+                        delay: 1.25,
+                        ease: [0.34, 1.56, 0.64, 1],
+                      }}
+                      whileInView={{
+                        scaleX: -1,
+                        transition: { delay: 0.8, duration: 0 },
+                      }}
+                    />
                   </h1>
                 </FadeIn>
 
