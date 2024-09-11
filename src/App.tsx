@@ -110,12 +110,12 @@ const App = () => {
           fill="white"
         />
 
-        <div className="md:hidden relative mb-8 mt-6 md:mt-0">
-          <div className="absolute top-0 left-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-r from-black to-transparent" />
+        <div className="md:hidden relative mb-8">
+          <div className="absolute -top-2 -left-2 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-r from-black to-transparent" />
           <div>
             <Ticker />
           </div>
-          <div className="absolute top-0 right-0 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-l from-black to-transparent " />
+          <div className="absolute -top-2 -right-2 w-40 h-[100px] 2xl:h-[47px] bg-gradient-to-l from-black to-transparent " />
         </div>
 
         <div className="hidden md:block relative mb-8">
