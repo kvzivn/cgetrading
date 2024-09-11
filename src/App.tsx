@@ -125,9 +125,15 @@ const App = () => {
         <div className="w-full relative flex flex-col items-center justify-center">
           <div className="flex flex-col z-10 items-center justify-center w-full pt-0 pb-12 md:py-24 lg:pb-8 lg:pt-0 text-slate-300">
             <div className="px-4 md:px-6 text-center">
-              <img src="/logo2.png" alt="logo" className="h-16 w-16 mx-auto" />
+              <FadeIn delay={400}>
+                <img
+                  src="/logo2.png"
+                  alt="logo"
+                  className="h-16 w-16 mx-auto"
+                />
+              </FadeIn>
 
-              <div className="space-y-4 mt-4 mb-8">
+              <div className="relative space-y-4 mt-4 mb-8">
                 <FadeIn delay={600}>
                   <h1 className="text-4xl max-w-xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-400 via-purple-300 to-white inline-block text-transparent bg-clip-text">
                     Navigate the Evolving Gold & Forex Market
