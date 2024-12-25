@@ -190,7 +190,7 @@ const App = () => {
                         transition: { delay: 0.8, duration: 0 },
                       }}
                     />
-                    Navigate the Evolving Gold & Forex Market
+                    Navigate the Evolving Markets
                     <motion.img
                       src="/bear.svg"
                       alt="logo"
