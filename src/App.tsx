@@ -270,7 +270,7 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[44rem] mx-auto text-muted-foreground md:text-xl mt-14">
-                  Get ready to supercharge your trading game ...
+                  Get ready to supercharge your trading game!
                 </p>
               </FadeIn>
 
