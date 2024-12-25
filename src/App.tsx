@@ -270,11 +270,7 @@ const App = () => {
 
               <FadeIn delay={1200}>
                 <p className="max-w-[44rem] mx-auto text-muted-foreground md:text-xl mt-14">
-                  Get ready to supercharge your trading game! This model helps
-                  you effortlessly capitalize on minimal resistance and market
-                  trends. Guided by a score range of -7 to +7, it ensures your
-                  trading decisions are both savvy and effective, while also
-                  alerting you to potential liquidity traps.
+                  Get ready to supercharge your trading game ...
                 </p>
               </FadeIn>
 
