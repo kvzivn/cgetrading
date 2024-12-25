@@ -190,7 +190,7 @@ const App = () => {
                         transition: { delay: 0.8, duration: 0 },
                       }}
                     />
-                    Navigate Success, Powered by Capital Flows
+                    Navigate Success by Capital Flows
                     <motion.img
                       src="/bear.svg"
                       alt="logo"
