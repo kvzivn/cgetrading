@@ -15,7 +15,7 @@ const HeroHighlight = ({
   containerClassName,
 }: {
   children: React.ReactNode
-  className?: stringF
+  className?: string
   containerClassName?: string
 }) => {
   let mouseX = useMotionValue(0)
@@ -225,7 +225,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGXHesyPHA/MsaNUV13ZCkwfxcM2S853Q/view?utm_content=DAGXHesyPHA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h410ddcf8a3"
+                          src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
                           allow="fullscreen"
                           onLoad={() => {
                             // This ensures the iframe loads after everything else
