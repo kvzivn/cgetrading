@@ -67,44 +67,9 @@ const HeroHighlight = ({
 }
 
 const App = () => {
-  const cardsData = [
-    {
-      logo: "/mql5.png",
-      heading: "Visit my MQL5 store",
-      text: "Discover the magic behind our 4.8-star rated tools (based on 25 reviews) and transform your trading game with:",
-      items: ["Breakout Lines", "The Trap Play", "Trading Cycle Array"],
-      ctaText: "Visit the store",
-      link: "https://www.mql5.com/en/users/411623/seller",
-    },
-    {
-      logo: "/discord.png",
-      heading: "Join my Discord server",
-      text: "Supercharge your trading journey and reach your financial targets, here's what we offer in our Discord server:",
-      items: [
-        "Real-time Liquidity Alerts",
-        "Exclusive, invite-only Scripts on TradingView",
-        "Top-notch Support",
-      ],
-      ctaText: "Join Discord",
-      link: "https://whop.com/cge-trading/",
-    },
-    {
-      logo: "/ig.png",
-      heading: "Start trading with IG",
-      text: "For my Swedish clients – open an ISK account and receive 500 SEK when you start trading.",
-      items: [
-        "Low flat-rate tax on ISK accounts (1-2%)",
-        "Turbo24 and Knock-Outs",
-        "Over 16,000 markets",
-      ],
-      ctaText: "Sign up",
-      link: "https://refer.ig.com/carlgustave-6",
-    },
-  ]
-
   return (
-    <HeroHighlight>
-      <div className="pb-16">
+    <HeroHighlight className="w-full">
+      <div className="w-full pb-16">
         <Spotlight
           className="hidden lg:block -left-[27.5rem] -top-[70rem]"
           fill="white"
@@ -217,31 +182,7 @@ const App = () => {
                 </FadeIn>
               </div>
 
-              <div className="flex flex-col gap-12 w-full xl:flex-row xl:w-[80rem]">
-                <FadeIn delay={1000} className="w-full">
-                  <div className="relative px-5 w-full">
-                    <BackgroundGradient className="rounded-xl bg-background p-0.25">
-                      <div className="relative w-full pt-[56.25%] overflow-hidden shadow-md rounded-[1rem] border-2 border-gray-800">
-                        <iframe
-                          className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
-                          loading="lazy"
-                          src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
-                          allow="fullscreen"
-                          onLoad={() => {
-                            // This ensures the iframe loads after everything else
-                            window.requestIdleCallback(() => {
-                              const iframe = document.querySelector("iframe")
-                              if (iframe) {
-                                iframe.src = iframe.dataset.src ?? ""
-                              }
-                            })
-                          }}
-                          data-src="https://www.canva.com/design/DAGOj4Rfvus/xchvtNzuUhAxCBx-yQCcjg/view?embed"
-                        ></iframe>
-                      </div>
-                    </BackgroundGradient>
-                  </div>
-                </FadeIn>
+              <div className="flex w-full xl:w-[50rem]">
                 <FadeIn delay={1200} className="w-full">
                   <div className="relative px-5 w-full">
                     <BackgroundGradient className="rounded-xl bg-background p-0.25">
