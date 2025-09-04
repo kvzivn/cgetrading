@@ -190,7 +190,7 @@ const App = () => {
                         <iframe
                           className="absolute top-0 left-0 w-full h-full border-0 p-0 m-0"
                           loading="lazy"
-                          src="https://www.canva.com/design/DAGI-sMGDBs/H8fsyHF4FIeLoGGDILZcjg/view?embed"
+                          src="https://www.canva.com/design/DAGNS4CBz04/XT3htlX6mVdNMQOXk3PpcA/view"
                           allow="fullscreen"
                           onLoad={() => {
                             // This ensures the iframe loads after everything else
