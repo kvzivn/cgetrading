@@ -228,7 +228,7 @@ const App = () => {
                       alt="mql5"
                       className="h-8 rounded-full mx-1"
                     />{" "}
-                    store
+                    bottega
                   </a>
                 </div>
               </FadeIn>
