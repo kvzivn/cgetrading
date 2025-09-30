@@ -155,7 +155,7 @@ const App = () => {
                         transition: { delay: 0.8, duration: 0 },
                       }}
                     />
-                    Navigate Success by Order Flow$
+                    Navigate Success by Capital Flow$
                     <motion.img
                       src="/bear.svg"
                       alt="logo"
